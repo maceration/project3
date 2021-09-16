@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body { font-family:'서평원 꺾깎체','SLEI Gothic TTF',helvetica,sans-serif;  font-size:12px; color:#333;}
+
+.blind { display:none; }
+
+header { position:fixed; left:0; top:0; right:0; height:80px; background:#000; z-index:100; }
+#header_in { margin:0 10px; min-width:900px; }
+header h1 { float:left; margin-top:22px; color: #fff;}
+header h1 a { display:block; width:120px; height:30px; }
+
+header ul { float:right; margin-top:30px; }
+header li { display:inline-block; margin-left:50px; }
+header li a { color:#fff; font-size: 1.2em; font-weight:bold; }
+
+.navLast:after {  display:inline-block; content:''; width:2px; height:10px; background:#fff; margin:0 20px 0 40px; }
+.navLang { margin-left:15px; }
+
+header li a:hover, li.on a { color:#FA2828; }
+
+
+#view {}
+section { position:relative; background-size:cover; background-position:center center; }
+
+
+#section1 { background-image:url('../img/enjoy.jpg'); }
+#section2 { background-image:url('../img/p.jpg'); }
+#section3 { background-image:url('../img/bg1.png'); }
+#section4 { background-image:url('../img/bg1.png'); }
+#section5 { background-image:url('../img/bg1.png'); }
+#section6 { background-image:url('../img/bg1.png'); }
+
+.txtBox { position:absolute; left:60%; top:33.3%; color:#333; font-size: 30px;}
+.txtBox h3 {font-size: 45px; color: red;}
+.home {float: right; margin-left: 50px; margin-top: 150px; font-size: 23px; }
+
+.txtBox .btnDown { width:36px; height:19px; background:url('../img/sp_common_v3.png') no-repeat 0 -94px; margin-top:30px; cursor:pointer;}
+
+
+
+
+#info { height:131px; color:#fff; }
+#info ul { display:table; width:100%; min-width:900px; height:131px; }
+#info li { display:table-cell; width:50%; vertical-align: middle; }
+#info h4 { font-size:18px; font-weight:bold; display:inline; margin-right:30px; }
+
+    li.stock  {background:#ff1515; padding: 0 30px 0 180px; font-size:13px; }
+    .stock dl { display:inline; }
+    .stock dd { display:inline; margin-right:10px;}
+    .stock dd:nth-of-type(1) { font-size:24px; }    
+
+    li.press { background:#232323; padding: 0  180px 0 30px; }
+    .press p { display:inline; }
+    .press a { color:#fff; font-size:14px;}
+
+
+
+
+
+
+/* 리모트 버튼 */
+#remote { position:fixed; top:50%; left:50px; transform:translateY(-50%); }
+#remote a { display:block; width:5px; height:5px; text-indent:-9999px; border:3px solid #fff; margin: 10px 0;}
+#remote a.on { border:3px solid #FA2828; }
+
+
+/*화면크기가 1200px보다 커졌을때*/
+@media (min-width:1200px) {
+    #header_in { width:1200px; margin:0 auto;}
+}
