@@ -6,7 +6,7 @@ body { font-family:'서평원 꺾깎체','SLEI Gothic TTF',helvetica,sans-serif;
 header { position:fixed; left:0; top:0; right:0; height:80px; background:#000; z-index:100; }
 #header_in { margin:0 10px; min-width:900px; }
 header h1 { float:left; margin-top:22px; }
-header h1 a { display:block; width:120px; height:30px; background:url('../img/logo_white.png'); background-size:100%; }
+header h1 a { display:block; width:120px; height:30px; background:url('logo_white.png'); background-size:100%; }
 
 header ul { float:right; margin-top:30px; }
 header li { display:inline-block; margin-left:50px; }
@@ -21,12 +21,12 @@ header li a:hover, li.on a { color:#FA2828; }
 #view {}
 section { position:relative; background-size:cover; background-position:center center; }
 
-#section1 { background-image:url('../img/bg1.png'); }
-#section2 { background-image:url('../img/bg1.png'); }
-#section3 { background-image:url('../img/bg1.png'); }
-#section4 { background-image:url('../img/bg1.png'); }
-#section5 { background-image:url('../img/bg1.png'); }
-#section6 { background-image:url('../img/bg1.png'); }
+#section1 { background-image:url('bg1.png'); }
+#section2 { background-image:url('bg1.png'); }
+#section3 { background-image:url('bg1.png'); }
+#section4 { background-image:url('bg1.png'); }
+#section5 { background-image:url('bg1.png'); }
+#section6 { background-image:url('bg1.png'); }
 
 .txtBox { position:absolute; left:20%; top:33.3%; color:#333; }
 .txtBox h3 { font-size:4em; font-weight: bold; margin-bottom:30px; } 
