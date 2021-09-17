@@ -22,18 +22,18 @@ header li a:hover, li.on a { color:#FA2828; }
 section { position:relative; background-size:cover; background-position:center center; }
 
 
-#section1 { background-image:url('../img/enjoy.jpg'); }
-#section2 { background-image:url('../img/p.jpg'); }
-#section3 { background-image:url('../img/bg1.png'); }
-#section4 { background-image:url('../img/bg1.png'); }
-#section5 { background-image:url('../img/bg1.png'); }
-#section6 { background-image:url('../img/bg1.png'); }
+#section1 { background-image:url('enjoy.jpg'); }
+#section2 { background-image:url('p.jpg'); }
+#section3 { background-image:url('bg1.png'); }
+#section4 { background-image:url('bg1.png'); }
+#section5 { background-image:url('bg1.png'); }
+#section6 { background-image:url('bg1.png'); }
 
 .txtBox { position:absolute; left:60%; top:33.3%; color:#333; font-size: 30px;}
 .txtBox h3 {font-size: 45px; color: red;}
 .home {float: right; margin-left: 50px; margin-top: 150px; font-size: 23px; }
 
-.txtBox .btnDown { width:36px; height:19px; background:url('../img/sp_common_v3.png') no-repeat 0 -94px; margin-top:30px; cursor:pointer;}
+.txtBox .btnDown { width:36px; height:19px; background:url('sp_common_v3.png') no-repeat 0 -94px; margin-top:30px; cursor:pointer;}
 
 
 
